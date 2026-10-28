@@ -1,0 +1,32 @@
+Sala de Solfeo adorArte · App instalable
+=========================================
+
+Archivos (todos van juntos, en el mismo nivel):
+  index.html              la app completa (incluye las 168 partituras)
+  manifest.webmanifest    nombre, colores e ícono de la app
+  sw.js                   guarda la app en el teléfono para usarla sin internet
+  icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png   íconos
+
+PUBLICARLA EN GITHUB (igual que G7Piano, en un repositorio nuevo)
+-----------------------------------------------------------------
+1. Descomprime este .zip en el teléfono.
+2. En Safari (vista de computadora) abre github.com/new
+   Repository name: solfeo · Public · Create repository.
+3. Toca "uploading an existing file", elige los 7 archivos
+   (LEEME.txt es opcional) y toca "Commit changes".
+4. Abre github.com/TU-USUARIO/solfeo/settings/pages
+   En "Branch" elige "main" y toca "Save".
+5. Espera 2 o 3 minutos. La app quedará en:
+   https://TU-USUARIO.github.io/solfeo/
+
+INSTALARLA
+----------
+iPhone: abre la dirección en Safari → Compartir → "Añadir a pantalla de inicio".
+Android: abre la dirección en Chrome → ⋮ → "Instalar aplicación".
+Ábrela una vez con internet desde el ícono y espera unos segundos.
+Después funciona sin conexión.
+
+ACTUALIZARLA
+------------
+Sube el nuevo index.html y, en sw.js, cambia "solfeo-v1" por "solfeo-v2"
+(v3, v4… en cada actualización). Al abrir la app con internet, se actualiza.
